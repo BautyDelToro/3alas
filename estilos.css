@@ -1,7 +1,7 @@
 
 /*lo que ponga en el root aplica a todo, es la raiz de la pagina*/
 :root{
---naranja:#F90;
+--naranja:rgb(89, 143, 95);
 --negro: #000000;
 --blanco: #FFF;
 --gris01: #333;
