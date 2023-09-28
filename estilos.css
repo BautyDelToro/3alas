@@ -1,0 +1,25 @@
+
+/*lo que ponga en el root aplica a todo, es la raiz de la pagina*/
+:root{
+--naranja:#F90;
+--negro: #000000;
+--blanco: #FFF;
+--gris01: #333;
+--gris02: #BBB;
+}
+
+h1{
+    color: var(--gris01);
+    background-color: var(--naranja);
+}
+
+body{
+
+    background-color: var(--naranja);
+}
+
+p{
+    color: var(--gris01);
+    background-color: var(--blanco);
+
+}
