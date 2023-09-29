@@ -8,18 +8,22 @@
 --gris02: #BBB;
 }
 
-h1{
-    color: var(--gris01);
-    background-color: var(--naranja);
-}
-
 body{
-
     background-color: var(--naranja);
 }
 
-p{
-    color: var(--gris01);
+.contenedor{
     background-color: var(--blanco);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    /*mismos margenes a los costados*/
+}
 
+.cabecera{
+display: flex;
+justify-content: space-between;
+}
+.cuerpo{
+background-color: aqua;
 }
