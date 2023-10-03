@@ -31,6 +31,31 @@ h1{
 display: flex;
 justify-content: space-between;
 }
-.cuerpo{
-background-color: aqua;
+.contenido{
+background-color: var(--blanco);
+border-radius: 8px;
+border-right: 1px solid var(--negro);
+border-left: 1px solid var(--negro);
+
+padding-bottom: 40px;
+}
+
+Nav{
+}
+.Nav-lista{
+    list-style-type:none;
+    padding-left: 0px;
+}
+.Nav-lista a{
+display: block;
+}
+
+.Nav-lista a:hover{
+    background-color: aqua;
+}
+.Nav-lista li{
+display: inline-block;
+;
+}
+.Nav-lista form{
 }
