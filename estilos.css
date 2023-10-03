@@ -9,11 +9,18 @@
 }
 
 body{
-    background-color: var(--naranja);
+background-color: var(--gris01);
+font-family: Arial, Helvetica, sans-serif;  
+background-image: url(pattern.jpg);
+background-attachment: fixed;
+/*font famili aplica a hijos pq es "hereditaria"*/
+}
+
+h1{
+    color: var(--naranja);
 }
 
 .contenedor{
-    background-color: var(--blanco);
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
