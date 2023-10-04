@@ -41,21 +41,37 @@ padding-bottom: 40px;
 }
 
 Nav{
+background-color: var(--naranja);
 }
 .Nav-lista{
-    list-style-type:none;
-    padding-left: 0px;
+display: flex;
+list-style-type:none;
+padding: 7px 8px ;
+
 }
 .Nav-lista a{
 display: block;
+color: var(--blanco);
+padding: 8px;
+text-decoration:none;
+margin: 0px 3px 0px 3px;
 }
 
 .Nav-lista a:hover{
-    background-color: aqua;
+background-color: aqua;
 }
 .Nav-lista li{
-display: inline-block;
-;
+flex-direction: row;
+padding: 0%;
 }
 .Nav-lista form{
+    text-align: right;
+    min-width: 450px;
+}
+
+.slider{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 940px;
+    margin-bottom: 40px;
 }
