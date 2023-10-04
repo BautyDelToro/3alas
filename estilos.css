@@ -69,9 +69,30 @@ padding: 0%;
     min-width: 450px;
 }
 
+/*slider*/
 .slider{
     margin-right: auto;
     margin-left: auto;
     max-width: 940px;
     margin-bottom: 40px;
 }
+
+.main{
+    display: grid;
+    grid-template-columns: 230px 1fr;
+
+}
+
+/*categorias*/
+.categorias{
+}
+
+/*productos*/
+.productos{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    gap:20px;
+    /*espacio entre columnas*/
+}
+
