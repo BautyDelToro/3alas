@@ -42,11 +42,13 @@ padding-bottom: 40px;
 
 Nav{
 background-color: var(--naranja);
+flex-grow: 1;
+
 }
 .Nav-lista{
 display: flex;
 list-style-type:none;
-padding: 7px 8px ;
+padding: 10px 8px ;
 
 }
 .Nav-lista a{
@@ -54,7 +56,7 @@ display: block;
 color: var(--blanco);
 padding: 8px;
 text-decoration:none;
-margin: 0px 3px 0px 3px;
+padding: 5px 5px 5px 5px;
 }
 
 .Nav-lista a:hover{
@@ -67,6 +69,8 @@ padding: 0%;
 .Nav-lista form{
     text-align: right;
     min-width: 450px;
+    vertical-align: middle;
+    background-color: aqua;
 }
 
 /*slider*/
@@ -80,7 +84,10 @@ padding: 0%;
 .main{
     display: grid;
     grid-template-columns: 230px 1fr;
-
+    padding-left: 20px;
+    padding-right: 60px;
+    margin-bottom:40px;
+    /*para el h2categorias y los textos de los productos*/
 }
 
 /*categorias*/
@@ -96,3 +103,51 @@ padding: 0%;
     /*espacio entre columnas*/
 }
 
+.contenedorproductos{
+display: flex;
+flex-direction: row;
+gap: 10px;
+}
+
+/*Newsletter*/
+
+.newsletter{
+    max-height: 100px;
+    width: 900PX;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 35px;
+    border: solid var(--gris01) 1px;
+    border-radius: 4px;
+    background-image: linear-gradient(var(--blanco)70%,var(--gris02));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#textonewsletter{
+    margin: 0%;
+    padding-left: 40px;
+}
+
+.newsletterdivtexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#olapapa{
+    margin: 0%;
+    padding-left: 80px;
+}
+
+.newsletter form{
+flex-grow: 1;
+text-align: right;
+padding-right: 20px;
+}
+
+.rojoo{
+    color: red  ;
+}
