@@ -6,6 +6,7 @@
 --blanco: #FFF;
 --gris01: #333;
 --gris02: #BBB;
+--gris03: #ececec;
 }
 
 body{
@@ -14,6 +15,7 @@ font-family: Arial, Helvetica, sans-serif;
 background-image: url(pattern.jpg);
 background-attachment: fixed;
 /*font famili aplica a hijos pq es "hereditaria"*/
+margin: 0px;
 }
 
 h1{
@@ -124,6 +126,7 @@ gap: 10px;
     flex-direction: row;
     align-items: center;
     padding-left: 20px;
+    margin-bottom: 20px;
 }
 
 #textonewsletter{
@@ -150,4 +153,31 @@ padding-right: 20px;
 
 .rojoo{
     color: red  ;
+}
+
+.divfooter{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+footer{
+    padding-left: 60px;
+    background-color: var(--gris03);
+    border-top: solid 1px var(--gris01);
+    flex-grow: 1;
+    padding-right: 10px;
+    padding-bottom: 1px;
+}
+
+#BautiDiseño{
+    text-underline-offset:var(--naranja);
+    color: #F90;
+    flex-grow: 1;
+}
+
+#ola{
+    flex-grow: 1;
+    text-align: right;
+    margin: 0;
 }
